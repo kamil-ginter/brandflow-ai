@@ -5,27 +5,15 @@ A small Python portfolio project built around one product idea: **brand context 
 BrandFlow AI separates persistent brand context from the authoring task, then uses both to produce content for emails, landing pages and forms.
 
 
+## Demo
 
-\## Demo
+### Brand-aware authoring workflow
 
+![BrandFlow AI main interface](docs/brandflow-main.png)
 
+### Generated content and consistency checks
 
-\### Brand-aware authoring workflow
-
-
-
-!\[BrandFlow AI main interface](docs/brandflow-main.png)
-
-
-
-\### Generated content and consistency checks
-
-
-
-!\[BrandFlow AI generated result](docs/brandflow-result.png)
-
-
-
+![BrandFlow AI generated result](docs/brandflow-result.png)
 
 
 ## What changed in v2
