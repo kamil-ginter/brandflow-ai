@@ -4,17 +4,41 @@ A small Python portfolio project built around one product idea: **brand context 
 
 BrandFlow AI separates persistent brand context from the authoring task, then uses both to produce content for emails, landing pages and forms.
 
+
+
+\## Demo
+
+
+
+\### Brand-aware authoring workflow
+
+
+
+!\[BrandFlow AI main interface](docs/brandflow-main.png)
+
+
+
+\### Generated content and consistency checks
+
+
+
+!\[BrandFlow AI generated result](docs/brandflow-result.png)
+
+
+
+
+
 ## What changed in v2
 
-- cleaner Streamlit UI
-- reusable local brand profiles
-- quick content presets
-- structured brand/task brief
-- editable generated result
-- deterministic consistency checks
-- JSON export
-- optional OpenAI-compatible HTTP provider
-- automated tests
+* cleaner Streamlit UI
+* reusable local brand profiles
+* quick content presets
+* structured brand/task brief
+* editable generated result
+* deterministic consistency checks
+* JSON export
+* optional OpenAI-compatible HTTP provider
+* automated tests
 
 ## Why this project
 
@@ -37,7 +61,7 @@ python -m venv .venv
 Windows:
 
 ```bash
-.venv\Scripts\activate
+.venv\\Scripts\\activate
 ```
 
 Install:
@@ -63,10 +87,10 @@ streamlit run app.py
 Set:
 
 ```text
-BRANDFLOW_PROVIDER=http
-LLM_API_URL=https://your-provider.example/v1/chat/completions
-LLM_API_KEY=your_key
-LLM_MODEL=your_model
+BRANDFLOW\_PROVIDER=http
+LLM\_API\_URL=https://your-provider.example/v1/chat/completions
+LLM\_API\_KEY=your\_key
+LLM\_MODEL=your\_model
 ```
 
 Never commit a real `.env` file or API key.
@@ -84,9 +108,9 @@ brandflow-ai/
 │   ├── prompting.py
 │   └── providers.py
 ├── tests/
-│   ├── test_evaluator.py
-│   ├── test_profiles.py
-│   └── test_prompting.py
+│   ├── test\_evaluator.py
+│   ├── test\_profiles.py
+│   └── test\_prompting.py
 ├── app.py
 ├── requirements.txt
 └── README.md
@@ -96,3 +120,4 @@ brandflow-ai/
 
 **Kamil Jozef Ginter**  
 Trieste, Italy
+
